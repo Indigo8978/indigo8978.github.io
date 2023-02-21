@@ -1,7 +1,7 @@
 let video = null;
 let canvas = null;
 let context = null;
-let scaler = 0.5;
+
 function main() {
     canvas = document.getElementById("myCanvas");
     context = canvas.getContext("2d");
@@ -41,12 +41,15 @@ function timeout() {
 */
 timeout();
 setTimeout(harharhar, 61000);
+hoi();
 
 function updateCanvas() {
     context.drawImage(video, 0, 0, 200, 200);
     window.requestAnimationFrame(updateCanvas);
 }
 
-function handleResize() {
-
+function hoi() {
+setTimeout(function() {
+    document.getElementById('myimage').style. display = 'block';
+},59000);
 }

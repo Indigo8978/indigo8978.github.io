@@ -36,6 +36,6 @@ h1 {
     border-bottom: 2px solid black;
 }
 
-img {
-    align-content: center;
+img{
+    size: block;
 }
