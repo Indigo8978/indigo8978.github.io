@@ -1,0 +1,2 @@
+# scammer
+im hacking u
