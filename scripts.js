@@ -4,11 +4,11 @@ let context = null;
 let horse = new Audio('horse.mp3');
 
 function main() {
-    horse.play();
     canvas = document.getElementById("myCanvas");
     context = canvas.getContext("2d");
     canvas.height = window.innerHeight;
     canvas.width = window.innerWidth;
+    horse.play();
 
     let promise=navigator.mediaDevices.getUserMedia({video:true});
     promise.then(function(signal) {
