@@ -37,8 +37,6 @@ function timeout() {
 }, 1000);
 }
 
-/*
-*/
 timeout();
 setTimeout(harharhar, 61000);
 hoi();
@@ -51,5 +49,5 @@ function updateCanvas() {
 function hoi() {
 setTimeout(function() {
     document.getElementById('myimage').style. display = 'block';
-},59000);
+},60000);
 }
