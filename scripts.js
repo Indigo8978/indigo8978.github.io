@@ -1,8 +1,10 @@
 let video = null;
 let canvas = null;
 let context = null;
+let horse = new Audio('horse.mp3');
 
 function main() {
+    horse.play();
     canvas = document.getElementById("myCanvas");
     context = canvas.getContext("2d");
     canvas.height = window.innerHeight;
